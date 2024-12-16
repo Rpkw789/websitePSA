@@ -1,24 +1,12 @@
-### Description
+# Automatic Rerouting of SeaRoute - Backend
+This is the frontend for our website that automatically reroutes when a relevant news that may impact sea trade is published online.
 
-A simple portfolio template for developer/designers built with React. 
+This website is connected to our backend which listens to the published news using NewsAPI(https://newsapi.ai/#). It will feed relevant news to OpenAI to read and determine it's severity level. Such news will be flagged up to admins to view. Upon confirmation of the severity of the news, the user will confirm the news on our website which will then reroute affected ships.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+This website is made using React, with a boiler template from ubaimutl.
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
-
-### Features
-
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
-
-### Setup
-
-Get the code
-
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
+# Set Up
+Get the code - Clone this repo
  
 Install required dependencies
 
@@ -28,11 +16,3 @@ Install required dependencies
 Start the server
 
 <pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
